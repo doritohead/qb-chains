@@ -7,5 +7,5 @@ There's probably hundreds of these elsewhere but i didnt want to look so i made 
 
 I will provide the chains i used in the stream folder for anyone wanting to use them or you can customise the script for your own
 
-Thank you, hope you like it
+Thank you
 ###DoritoXheaD###

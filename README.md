@@ -10,4 +10,4 @@ Tested on updated QB-Core works with no issues, some chains won't appear over ce
 
 any problems get in contact
 Thank you
-###DoritoXheaD###
+DoritoXheaD

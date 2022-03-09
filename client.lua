@@ -12,7 +12,7 @@ RegisterNetEvent('chains:client:chain_V', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 1, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 1, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -42,7 +42,7 @@ RegisterNetEvent('chains:client:chain_V1', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 1, GetPedTextureVariation(ped, 7), 1)
+            SetPedComponentVariation(ped, 7, 1, 1)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -72,7 +72,7 @@ RegisterNetEvent('chains:client:chain_V2', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 1, GetPedTextureVariation(ped, 7), 2)
+            SetPedComponentVariation(ped, 7, 1, 2)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -102,7 +102,7 @@ RegisterNetEvent('chains:client:chain_bdb', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 2, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 2, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -132,7 +132,7 @@ RegisterNetEvent('chains:client:chain_cp1', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 3, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 3, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -162,7 +162,7 @@ RegisterNetEvent('chains:client:chain_cp2', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 3, GetPedTextureVariation(ped, 7), 1)
+            SetPedComponentVariation(ped, 7, 3, 1)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -192,7 +192,7 @@ RegisterNetEvent('chains:client:chain_skull', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 4, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -222,7 +222,7 @@ RegisterNetEvent('chains:client:chain_skull2', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 1)
+            SetPedComponentVariation(ped, 7, 4, 1)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -252,7 +252,7 @@ RegisterNetEvent('chains:client:chain_skull3', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 2)
+            SetPedComponentVariation(ped, 7, 4, 2)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -282,7 +282,7 @@ RegisterNetEvent('chains:client:chain_skull4', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 3)
+            SetPedComponentVariation(ped, 7, 4, 3)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -312,7 +312,7 @@ RegisterNetEvent('chains:client:chain_skull5', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 4)
+            SetPedComponentVariation(ped, 7, 4, 4)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -342,7 +342,7 @@ RegisterNetEvent('chains:client:chain_skull6', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 5)
+            SetPedComponentVariation(ped, 7, 4, 5)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -372,7 +372,7 @@ RegisterNetEvent('chains:client:chain_skull7', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 4, GetPedTextureVariation(ped, 7), 6)
+            SetPedComponentVariation(ped, 7, 4, 6)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -402,7 +402,7 @@ RegisterNetEvent('chains:client:chain_nocap', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 5, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 5, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -432,7 +432,7 @@ RegisterNetEvent('chains:client:chain_snake', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 7, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 7, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -462,7 +462,7 @@ RegisterNetEvent('chains:client:chain_link', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 8, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 8, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -492,7 +492,7 @@ RegisterNetEvent('chains:client:chain_au1', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 0)
+            SetPedComponentVariation(ped, 7, 10, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -522,7 +522,7 @@ RegisterNetEvent('chains:client:chain_au2', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 1)
+            SetPedComponentVariation(ped, 7, 10, 1)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -552,7 +552,7 @@ RegisterNetEvent('chains:client:chain_au3', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 2)
+            SetPedComponentVariation(ped, 7, 10, 2)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -582,7 +582,7 @@ RegisterNetEvent('chains:client:chain_au4', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 3)
+            SetPedComponentVariation(ped, 7, 10, 3)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -612,7 +612,7 @@ RegisterNetEvent('chains:client:chain_au5', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 4)
+            SetPedComponentVariation(ped, 7, 10, 4)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -642,7 +642,7 @@ RegisterNetEvent('chains:client:chain_au6', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 5)
+            SetPedComponentVariation(ped, 7, 10, 5)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -672,7 +672,7 @@ RegisterNetEvent('chains:client:chain_au7', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 6)
+            SetPedComponentVariation(ped, 7, 10, 6)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -702,7 +702,7 @@ RegisterNetEvent('chains:client:chain_au8', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 7)
+            SetPedComponentVariation(ped, 7, 10, 7)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -732,7 +732,7 @@ RegisterNetEvent('chains:client:chain_au9', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 8)
+            SetPedComponentVariation(ped, 7, 10, 8)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -762,7 +762,7 @@ RegisterNetEvent('chains:client:chain_au10', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 9)
+            SetPedComponentVariation(ped, 7, 10, 9)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -792,7 +792,7 @@ RegisterNetEvent('chains:client:chain_au11', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 10)
+            SetPedComponentVariation(ped, 7, 10, 10)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -822,7 +822,7 @@ RegisterNetEvent('chains:client:chain_au12', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 11)
+            SetPedComponentVariation(ped, 7, 10, 11)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -852,7 +852,7 @@ RegisterNetEvent('chains:client:chain_au13', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 12)
+            SetPedComponentVariation(ped, 7, 10, 12)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -882,7 +882,7 @@ RegisterNetEvent('chains:client:chain_au14', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 13)
+            SetPedComponentVariation(ped, 7, 10, 13)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -912,7 +912,7 @@ RegisterNetEvent('chains:client:chain_au15', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 14)
+            SetPedComponentVariation(ped, 7, 10, 14)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -942,7 +942,7 @@ RegisterNetEvent('chains:client:chain_au16', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 15)
+            SetPedComponentVariation(ped, 7, 10, 15)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})

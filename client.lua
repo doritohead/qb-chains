@@ -1,8 +1,8 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local ped = PlayerPedId()
 local wearing = false
 
 RegisterNetEvent('chains:client:chain_V', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -17,7 +17,7 @@ RegisterNetEvent('chains:client:chain_V', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -33,6 +33,7 @@ RegisterNetEvent('chains:client:chain_V', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_V1', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -47,7 +48,7 @@ RegisterNetEvent('chains:client:chain_V1', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -63,6 +64,7 @@ RegisterNetEvent('chains:client:chain_V1', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_V2', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -77,7 +79,7 @@ RegisterNetEvent('chains:client:chain_V2', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -93,6 +95,7 @@ RegisterNetEvent('chains:client:chain_V2', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_bdb', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -107,7 +110,7 @@ RegisterNetEvent('chains:client:chain_bdb', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -123,6 +126,7 @@ RegisterNetEvent('chains:client:chain_bdb', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_cp1', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -137,7 +141,7 @@ RegisterNetEvent('chains:client:chain_cp1', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -153,6 +157,7 @@ RegisterNetEvent('chains:client:chain_cp1', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_cp2', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -167,7 +172,7 @@ RegisterNetEvent('chains:client:chain_cp2', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -183,6 +188,7 @@ RegisterNetEvent('chains:client:chain_cp2', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -197,7 +203,7 @@ RegisterNetEvent('chains:client:chain_skull', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -213,6 +219,7 @@ RegisterNetEvent('chains:client:chain_skull', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull2', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -227,7 +234,7 @@ RegisterNetEvent('chains:client:chain_skull2', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -243,6 +250,7 @@ RegisterNetEvent('chains:client:chain_skull2', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull3', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -257,7 +265,7 @@ RegisterNetEvent('chains:client:chain_skull3', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -273,6 +281,7 @@ RegisterNetEvent('chains:client:chain_skull3', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull4', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -287,7 +296,7 @@ RegisterNetEvent('chains:client:chain_skull4', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -303,6 +312,7 @@ RegisterNetEvent('chains:client:chain_skull4', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull5', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -317,7 +327,7 @@ RegisterNetEvent('chains:client:chain_skull5', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -333,6 +343,7 @@ RegisterNetEvent('chains:client:chain_skull5', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull6', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -347,7 +358,7 @@ RegisterNetEvent('chains:client:chain_skull6', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -363,6 +374,7 @@ RegisterNetEvent('chains:client:chain_skull6', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_skull7', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -377,7 +389,7 @@ RegisterNetEvent('chains:client:chain_skull7', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -393,6 +405,7 @@ RegisterNetEvent('chains:client:chain_skull7', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_nocap', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -407,7 +420,7 @@ RegisterNetEvent('chains:client:chain_nocap', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -423,6 +436,7 @@ RegisterNetEvent('chains:client:chain_nocap', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_snake', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -437,7 +451,7 @@ RegisterNetEvent('chains:client:chain_snake', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -453,6 +467,7 @@ RegisterNetEvent('chains:client:chain_snake', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_link', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -467,7 +482,7 @@ RegisterNetEvent('chains:client:chain_link', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -483,6 +498,7 @@ RegisterNetEvent('chains:client:chain_link', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au1', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -497,7 +513,7 @@ RegisterNetEvent('chains:client:chain_au1', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -513,6 +529,7 @@ RegisterNetEvent('chains:client:chain_au1', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au2', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -527,7 +544,7 @@ RegisterNetEvent('chains:client:chain_au2', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -543,6 +560,7 @@ RegisterNetEvent('chains:client:chain_au2', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au3', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -557,7 +575,7 @@ RegisterNetEvent('chains:client:chain_au3', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -573,6 +591,7 @@ RegisterNetEvent('chains:client:chain_au3', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au4', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -587,7 +606,7 @@ RegisterNetEvent('chains:client:chain_au4', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -603,6 +622,7 @@ RegisterNetEvent('chains:client:chain_au4', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au5', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -617,7 +637,7 @@ RegisterNetEvent('chains:client:chain_au5', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -633,6 +653,7 @@ RegisterNetEvent('chains:client:chain_au5', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au6', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -647,7 +668,7 @@ RegisterNetEvent('chains:client:chain_au6', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -663,6 +684,7 @@ RegisterNetEvent('chains:client:chain_au6', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au7', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -677,7 +699,7 @@ RegisterNetEvent('chains:client:chain_au7', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -693,6 +715,7 @@ RegisterNetEvent('chains:client:chain_au7', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au8', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -707,7 +730,7 @@ RegisterNetEvent('chains:client:chain_au8', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -723,6 +746,7 @@ RegisterNetEvent('chains:client:chain_au8', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au9', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -737,7 +761,7 @@ RegisterNetEvent('chains:client:chain_au9', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -753,6 +777,7 @@ RegisterNetEvent('chains:client:chain_au9', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au10', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -767,7 +792,7 @@ RegisterNetEvent('chains:client:chain_au10', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -783,6 +808,7 @@ RegisterNetEvent('chains:client:chain_au10', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au11', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -797,7 +823,7 @@ RegisterNetEvent('chains:client:chain_au11', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -813,6 +839,7 @@ RegisterNetEvent('chains:client:chain_au11', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au12', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -827,7 +854,7 @@ RegisterNetEvent('chains:client:chain_au12', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -843,6 +870,7 @@ RegisterNetEvent('chains:client:chain_au12', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au13', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -857,7 +885,7 @@ RegisterNetEvent('chains:client:chain_au13', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -873,6 +901,7 @@ RegisterNetEvent('chains:client:chain_au13', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au14', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -887,7 +916,7 @@ RegisterNetEvent('chains:client:chain_au14', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -903,6 +932,7 @@ RegisterNetEvent('chains:client:chain_au14', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au15', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -917,7 +947,7 @@ RegisterNetEvent('chains:client:chain_au15', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,
@@ -933,6 +963,7 @@ RegisterNetEvent('chains:client:chain_au15', function(itemName)
     end
 end)
 RegisterNetEvent('chains:client:chain_au16', function(itemName)
+    local ped = PlayerPedId()
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
@@ -947,7 +978,7 @@ RegisterNetEvent('chains:client:chain_au16', function(itemName)
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
-    else
+    elseif wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
         QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
             disableMovement = false,

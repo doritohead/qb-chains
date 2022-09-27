@@ -10,7 +10,7 @@ UPDATE | Chains will now remove when dropping or removing item
 I will provide the chains i used in the stream folder for anyone wanting to use them or you can customise the script for your own
 Tested on updated QB-Core works with no issues, some chains won't appear over certain clothing due to the thickness.
 
-Preview: https://streamable.com/qfong5
+Preview: https://streamable.com/s8lt1w
 
 I have provided instructions on how to add more chains please make sure you read it carefully.
 Thank you

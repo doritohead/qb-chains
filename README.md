@@ -1,4 +1,9 @@
 # qb-chains
+
+NOW ARCHIVED IF WANTING TO USE, PLEASE DOWNLOADED THE UPDATED VERSION
+https://github.com/doritohead/qb-chains-updated
+
+
 Usable necklace items with some sampled chains from GTA5mods
 
 This is my first ever release so don't expect anything amazing! 
